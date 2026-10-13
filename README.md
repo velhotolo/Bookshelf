@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img alt="Lua 5.5" src="https://img.shields.io/badge/Lua-5.4-2C2D72?logo=lua&logoColor=white">
+  <img alt="Lua 5.5" src="https://img.shields.io/badge/Lua-5.5-2C2D72?logo=lua&logoColor=white">
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite&logoColor=white">
   <img alt="Platforms: Linux and Windows" src="https://img.shields.io/badge/platforms-Linux%20%7C%20Windows-1F3B32">
   <img alt="Status: early development" src="https://img.shields.io/badge/status-early%20development-B8892B">
