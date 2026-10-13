@@ -1,0 +1,3 @@
+#!/bin/sh
+
+LUAROCKS_SYSCONFDIR='/etc/luarocks' exec '/usr/bin/lua5.4' -e 'package.path="/home/lucas/Documentos/Coding/Sistemas/apiBookshelf/lua_modules/share/lua/5.4/?.lua;/home/lucas/Documentos/Coding/Sistemas/apiBookshelf/lua_modules/share/lua/5.4/?/init.lua;"..package.path;package.cpath="/home/lucas/Documentos/Coding/Sistemas/apiBookshelf/lua_modules/lib/lua/5.4/?.so;"..package.cpath;local k,l,_=pcall(require,"luarocks.loader") _=k and l.add_context("busted","2.3.0-1")' '/home/lucas/Documentos/Coding/Sistemas/apiBookshelf/lua_modules/lib/luarocks/rocks-5.4/busted/2.3.0-1/bin/busted' "$@"
