@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="app/public/icon.svg" alt="Bookshelf icon" width="96" height="96">
-</p>
-
 <h1 align="center">Bookshelf</h1>
 
 <p align="center">
@@ -10,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img alt="Lua 5.4" src="https://img.shields.io/badge/Lua-5.4-2C2D72?logo=lua&logoColor=white">
+  <img alt="Lua 5.5" src="https://img.shields.io/badge/Lua-5.4-2C2D72?logo=lua&logoColor=white">
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite&logoColor=white">
   <img alt="Platforms: Linux and Windows" src="https://img.shields.io/badge/platforms-Linux%20%7C%20Windows-1F3B32">
   <img alt="Status: early development" src="https://img.shields.io/badge/status-early%20development-B8892B">
@@ -59,7 +55,7 @@ What `app/main.lua` does, in order:
 
 | Piece | Role |
 |---|---|
-| [Lua 5.4](https://www.lua.org/) | Language and runtime |
+| [Lua 5.5](https://www.lua.org/) | Language and runtime |
 | [Pegasus](https://github.com/EvandroLG/pegasus.lua) | HTTP request handling |
 | [LuaSocket](https://github.com/lunarmodules/luasocket) | Sockets and the server loop |
 | [LuaFileSystem](https://github.com/lunarmodules/luafilesystem) | Folders and file sizes |
