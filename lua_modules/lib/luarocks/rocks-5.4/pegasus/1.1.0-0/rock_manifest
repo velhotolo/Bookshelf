@@ -1,0 +1,24 @@
+rock_manifest = {
+   doc = {
+      LICENSE = "8ff6e8e44fbc0dc803df29fdf34a42f2",
+      ["README.md"] = "41954e47ca0105413019cc4d13229777"
+   },
+   lua = {
+      pegasus = {
+         ["compress.lua"] = "11d52e86374638c0ae5402922cba4746",
+         ["handler.lua"] = "84275d3e925ea430b5cede0934fa0a38",
+         ["init.lua"] = "be196ec28c4568dfa98243ee166e0104",
+         ["log.lua"] = "f597b8eb7f410306e50ba221984bf693",
+         plugins = {
+            ["compress.lua"] = "2f143a93a774a13b788eeb7f2a5c3974",
+            ["downloads.lua"] = "4098b34e9ddecae2228eb899ee0055e5",
+            ["files.lua"] = "cb9bbf725bc13f5718c4956c2d2b79cd",
+            ["router.lua"] = "93faa11e416d5e5189f13b1b219176c7",
+            ["tls.lua"] = "94300df9d47d29174d27d7877f5fc25f"
+         },
+         ["request.lua"] = "17be758eb2145cee8c051ce0d43c59be",
+         ["response.lua"] = "6bd5acc7580a49ccc1f3dc7680ba986f"
+      }
+   },
+   ["pegasus-1.1.0-0.rockspec"] = "5fdf0d1e14171358c62fe366734f9a61"
+}

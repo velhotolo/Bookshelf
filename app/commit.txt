@@ -1,0 +1,20 @@
+cd ~/caminho/do/bookshelf
+mkdir -p app/public
+mv ~/Downloads/icon.svg app/public/
+mv ~/Downloads/README.md ~/Downloads/.gitignore .
+
+git init -b main
+git add README.md .gitignore app/main.lua app/public/icon.svg
+git commit -F - <<'EOF'
+🎉 Initial commit: Bookshelf entry point
+
+- Add app/main.lua: finds its own folder, prepares the data folder
+  and log, runs migrations, picks a port (or reuses a running
+  instance), opens the browser and serves until asked to quit
+- Add README with overview, roadmap, stack and security design
+- Add app icon (SVG) and .gitignore for local data, builds and
+  Lua modules
+EOF
+
+git remote add origin git@github.com:velhotolo/NOME-DO-REPO.git
+git push -u origin main

@@ -1,0 +1,13 @@
+# Local data (development and test databases, logs)
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Lua libraries installed by luarocks
+lua_modules/
+
+# Packaging output
+build/
+dist/
